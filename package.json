@@ -1,6 +1,10 @@
 {
   "name": "refractile",
+<<<<<<< HEAD
   "version": "0.0.999999",
+=======
+  "version": "0.1.0",
+>>>>>>> a9b9d85 (Increment package version to 0.1.0)
   "description": "Polyglossic middleware for express",
   "main": "index.js",
   "directories": {

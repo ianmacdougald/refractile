@@ -13,14 +13,9 @@
     "prepack": "npmignore --auto"
   },
   "files": [
-    "bin",
-    "lib",
-    "!lib/enu",
-    "LICENSE.txt",
-    "README.md",
-    "SECURITY.md",
-    "ThirdPartyNoticeText.txt",
-    "!**/.gitattributes"
+    "dist",
+    "LICENSE",
+    "README.md"
   ],
   "repository": {
     "type": "git",

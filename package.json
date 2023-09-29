@@ -9,7 +9,15 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "npmignore --auto"
+  },
+  "publishConfig": {
+    "ignore": [
+      "!dist/",
+      "src/",
+      "test/"
+    ]
   },
   "repository": {
     "type": "git",

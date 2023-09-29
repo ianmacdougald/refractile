@@ -12,13 +12,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepack": "npmignore --auto"
   },
-  "publishConfig": {
-    "ignore": [
-      "!dist/",
-      "src/",
-      "test/"
-    ]
-  },
+  "files": [
+    "bin",
+    "lib",
+    "!lib/enu",
+    "LICENSE.txt",
+    "README.md",
+    "SECURITY.md",
+    "ThirdPartyNoticeText.txt",
+    "!**/.gitattributes"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oslabs-beta/refractile.git"

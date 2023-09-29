@@ -1,0 +1,12 @@
+# Exclude development and build-related files
+*.ts                # Exclude TypeScript source files
+tsconfig.json       # Exclude TypeScript configuration file
+src/                # Exclude the entire src directory
+test/               # Exclude the test directory
+node_modules/       # Exclude the node_modules directory
+.git/               # Exclude Git-related files and directories
+.npmignore          # Exclude the npmignore file itself
+
+# Exclude files generated during development or build
+dist/*.map           # Exclude source map files if generated
+# dist/*.ts            # Exclude any TypeScript files in the dist directory
